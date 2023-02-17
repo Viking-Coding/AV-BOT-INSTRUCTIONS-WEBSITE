@@ -47,6 +47,10 @@
                 to the channel of your choice. <br />
                 Users can then sign up simply, and be assigned roles with the
                 custom extra function.
+                <!-- Fully custom event creation tool, edit all details, then send it
+                to the channel of your choice. <br />
+                Users can then sign up simply, and be assigned roles with the
+                custom extra function. -->
               </p>
             </div>
           </div>
@@ -133,6 +137,11 @@
                 Automatic posting of the newest Youtube video from your
                 favourite channels.
               </p>
+              <!-- <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul> -->
             </div>
           </div>
           <div class="col d-flex align-items-start gap-lg-3">
@@ -158,7 +167,7 @@
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img
-              src="https://loremflickr.com/220/140/dog"
+              src="assets/eventcreator.gif"
               class="d-block mx-lg-auto img-fluid"
               alt="Event Creation"
               width="700"
@@ -172,17 +181,27 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Event Creation</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command: <span class="badge bg-primary">/create_event</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">None</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-warning text-dark">ADMIN</span
+                ><br />Result Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Every aspect is editable by you; Create events that don't require
+              roles, events that give a role in the Racing server, and events
+              that give roles in the main server. <br />After you have sent the
+              Event to a channel, Right click -> Apps -> Roles to assign a role
+              for those signed up with Yes
             </p>
-            <ul>
-              <li>Coffee</li>
-              <li>Tea</li>
-              <li>Milk</li>
-            </ul>
+
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
             </h3>
@@ -199,11 +218,23 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Fuel Calculator</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command: <span class="badge bg-primary">/fuel</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">User Information</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-success">All Users</span><br />Result
+                Permission:
+                <span class="badge bg-success">Ephemeral</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Calculates fuel required with a 1 lap buffer; Also specifies how
+              many pitstops will be required, along with how much fuel to refill
+              in the final stop.
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
@@ -212,7 +243,7 @@
           </div>
           <div class="col-10 col-sm-8 col-lg-6">
             <img
-              src="https://loremflickr.com/220/140/cat"
+              src="assets/fuel.gif"
               class="d-block mx-lg-auto img-fluid"
               alt="Fuel Calculator"
               width="700"
@@ -241,11 +272,25 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Ticket System</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command: <span class="badge bg-primary">/ticketing_init</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">None</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-warning text-dark">ADMIN</span
+                ><br />Result Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Run the command once in the channel of your choice to generate the
+              announcement and buttons. <br />Then users can click the buttons
+              and fill in the prompts. Once they press submit it will create a
+              private thread for them and the required admin role to discuss the
+              ticket.
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
@@ -263,11 +308,26 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Google Calendar</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command: <span class="badge bg-primary">/google_calendar</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary"
+                  >Simracing || IRL Motorsport</span
+                >
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-success">All Users</span><br />Result
+                Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
+
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Automatically posts on Sunday 8pm the next weeks Simracing and IRL
+              Motorsports AV calendars to the channel of your choice.
+              <br />There is a manual command available as well.
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
@@ -305,11 +365,25 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Twitch</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command:
+                <span class="badge bg-primary"
+                  >/add_twitch || /remove_twitch</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">User Information</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-success">All Users</span><br />Result
+                Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Get instant discord notifications whenever a streamer has gone
+              live.<br />Any user can use the command and add a streamer;<br />
+              Up to 10,000 streamers can be added.
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
@@ -327,11 +401,22 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Twitter</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command: <span class="badge bg-secondary">None</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">None</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-secondary">None</span><br />Result
+                Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Automatically posts all new Tweets from the AV Twitter to a
+              channel of your choice
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
@@ -369,11 +454,23 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">Youtube Feed</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command: <span class="badge bg-secondary">None</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">None</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-secondary">None</span><br />Result
+                Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Automatically posts the newest Youtube video is released from your
+              favourite Youtubers. <br />Currently requires messaging Cam the
+              Youtube channels you wish to follow.
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
@@ -391,11 +488,25 @@
               style="font-size: 3rem; color: rgb(70, 255, 164)"
             ></i>
             <h1 class="display-5 fw-bold lh-1 mb-3">AV Quote Database</h1>
+            <div class="col d-flex justify-content-between">
+              <p>
+                Command:
+                <span class="badge bg-primary"
+                  >/add_quote || /remove_quote || /av_quotes</span
+                ><br />Subcommands:
+                <span class="badge bg-secondary">None</span>
+              </p>
+              <p>
+                Command Permission:
+                <span class="badge bg-success">All Users</span><br />Result
+                Permission:
+                <span class="badge bg-success">All Users</span>
+              </p>
+            </div>
             <p class="lead">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
+              Users can add, remove, or grab a randomly choice quote/link from
+              the database.<br />Any text or link can be added (image links,
+              video links, anything)
             </p>
             <h3 class="mb-0 fs-6">
               <a href="#top">Back to top</a>
